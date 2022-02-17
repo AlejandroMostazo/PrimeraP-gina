@@ -1,0 +1,102 @@
+.informacion {
+  margin-top: -30px;
+}
+
+.ph3 {
+  text-align: center;
+  margin-left: 140px;
+  margin-top:50px;
+  margin-bottom: -40px;
+}
+
+.divformulario {
+  text-align: center;
+  margin-left: 140px;
+  margin-top:70px;
+}
+
+.formulario {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 258px;
+  height: 40px;
+  border-radius: 7px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #545454;
+  text-align: left;
+  font-size: 17px;
+  border: solid 3px #3DD9B9;
+}
+
+.formulario:hover {
+  border: solid 3px #32A48C;
+}
+
+#servicio {
+  height: 264px;
+  width: 471‬px;
+  border-radius: 10px;
+  margin-left: -930px;
+  margin-bottom: 100px;
+  margin-top: -420px;
+
+}
+
+#mensformulario {
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  width: 258px;
+  min-width: 258px;
+  max-width: 258px;
+  height: 73px;
+  border-radius: 7px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #545454;
+  text-align: left;
+  font-size: 17px;
+  border: solid 3px #3DD9B9;
+}
+
+#mensformulario:hover {
+  border: solid 3px #32A48C;
+}
+
+.botones {
+  width: 147px;
+  height: 41px;
+  border-radius: 10px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #E4E4E4;
+  background-color: #32A48C;
+  text-align: center;
+  font-size: 17px;
+  border: solid 7px #32A48C;
+  margin-bottom: 70px;
+}
+
+.botones:hover {
+  background-color: #1A7152;
+  border: solid 7px #1A7152;
+}
+
+.contacto {
+  width: 430px;
+  height: 110px;
+  padding-left: 60px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-color: #3DD9B9;
+  opacity: 0.65;
+  border-radius: 10px;
+  margin-left: 870px;
+  margin-bottom: 100px;
+  margin-top: -300px;
+}
+
+.txtcontacto {
+  margin-top: -10px;
+}

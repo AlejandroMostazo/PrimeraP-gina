@@ -1,0 +1,50 @@
+.informacion {
+  margin-top: -10px;
+}
+
+#Responsables {
+  margin-top: -300px;
+  margin-bottom: 250px;
+  padding-top: 200px;
+}
+
+.contenedor {
+  background-color: #A4CEC5;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: -170px;
+  border-radius: 40px;
+  margin-bottom: -500px;
+}
+
+.responsable {
+  width:280px;
+  height:280px;
+  border-radius:150px;
+  border:7px solid #1A7152;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+
+}
+
+.inforesponh {
+  font-family: Arial;
+  font-weight: 900;
+  color: #303030;
+  text-align: left;
+  margin-top: 190px;
+  margin-left: 420px;
+  margin-bottom: 35px;
+}
+
+.inforesponc {
+  margin-left: 450px;
+  margin-top: -15px;
+  color: #363636;
+  font-weight: 710;
+}
+
+.inforespon {
+  margin-left: 480px;
+}

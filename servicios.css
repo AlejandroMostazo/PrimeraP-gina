@@ -1,0 +1,50 @@
+#informacion {
+  height: 600px;
+}
+
+.servicios {
+  height: 150px;
+  width: 300px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 121px;
+  margin-right: -50px;
+  border-radius: 20px;
+  border: solid 4px #80D7C5;
+  float: left;
+}
+
+.txtservicios {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.servicios:hover {
+    border: solid 4px #32A48C;
+}
+
+.visivility {
+  position: absolute;
+  opacity: 0;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 54px;
+  max-width: 192px;
+  min-height: 105px;
+  max-height: 105px;
+  padding-left: 54px;
+  margin-top: -95px;
+  color: #000000;
+  font-size: 15px;
+  text-align:center;
+}
+
+.visivility:hover {
+  opacity: 0.85;
+  background-color: #A1F2C0;
+  border-radius: 16px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagenes/favicon.png" type="image/png" >
+    <title>Festival de cine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="contacto.css">
+  </head>
+  <body>
+      <div id="contenido">
+        <div id="menu">
+          <ul id="ejm5">
+            <li><a href="Web_principal.html" title="Link 1"><span data-title="Inicio">Inicio</span></a></li>
+            <li><a href="Quienes_somos.html" title="Link 2"><span data-title="Quiénes somos">Quiénes somos</span></a></li>
+            <li><a href="Servicios.html" title="Link 3"><span data-title="Servicios">Servicios</span></a></li>
+            <li><a href="#informacion" title="Link 4"  style="color: #1A7152;"><span data-title="Contacto">Contacto</span></a></li>
+            <li id="galemenu"><a href="#pie" title="Link 5"><span data-title="Galería">Galería</span></a></li>
+          </ul>
+          <div id="logo">
+            <img src="imagenes/logo.jpg" alt="logo" class="imagen">
+          </div>
+        </div>
+        <div id="informacion">
+          <div class="informacion">
+            <h1 style="margin-left: 370px;">Servicio de atención al cliente</h1>
+            <h3 class="ph3">Envianos tu consulta rellenando el siguiente formulario</h3>
+            <p class="ph3">Los apartados marcados con * son OBLIGATORIOS</P>
+            <form class="divformulario">
+              <input type="text" name="nombre" placeholder="Nombre*" required="required" class="formulario"></br>
+              <input type="text" name="email" placeholder="Email*" required="required" class="formulario"></br>
+              <input type="text" name="teléfono" placeholder="Teléfono" class="formulario"></br>
+              <input type="text" name="asunto" placeholder="Asunto*" required="required" class="formulario"></br>
+              <textarea name="Mensaje" required="required" placeholder="Mensaje*" rows="5" id="mensformulario"></textarea></br>
+              <input type="button" name="guardar" value="Enviar" class="botones" />
+              <input type="reset" name="limpiar" value="Borrar" class="botones" /></br>
+              <img src="imagenes/servicio.png" alt="servicio" id="servicio">
+            </form>
+            <div class="contacto">
+              <p class="txtcontacto">Teléfono de contacto: 968 999 977*</p>
+              <p class="txtcontacto">Horario: Laborables de 9 a 20h</p>
+              <p class="txtcontacto">Nota: llamada convencional.</p>
+              <p class="txtcontacto">*Sin coste si tienes una tarifa plana de llamadas nacionales a teléfonos fijos.</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div id="pie">
+            <div id="galeria">
+              <img src="imagenes/galeria.jpg" alt="galeria" id="baner">
+              <div id="img1">
+                <a href="https://www.youtube.com/watch?v=Oyuomep8Ac4" target="_blank"><img src="imagenes/img1.jpg" alt="img1" class="cartelera"></a>
+              </div>
+              <div id="img2">
+                <a href="https://www.youtube.com/watch?v=dUbOYjwIy2M" target="_blank"><img src="imagenes/img2.jpg" alt="img2" class="cartelera"></a>
+              </div>
+              <div id="img3">
+                <a href="https://www.youtube.com/watch?v=3XtTIs8O3iM" target="_blank"><img src="imagenes/img3.jpg" alt="img3" class="cartelera"></a>
+              </div>
+              <div id="img4">
+                <a href="https://www.youtube.com/watch?v=aNQqoExfQsg" target="_blank"><img src="imagenes/img4.jpg" alt="img4" class="cartelera"></a>
+              </div>
+              <div id="img5">
+                <a href="https://www.youtube.com/watch?v=lSA7mAHolAw" target="_blank"><img src="imagenes/img5.jpg" alt="img5" class="cartelera"></a>
+              </div>
+              <div class="text">
+                <p>Proyecto realizado por: <a href="">Alejandro Mostazo</a></p>
+              </div>
+              <div class="text">
+                <p id="p"><a href="">BitScape S.L.U</a></p>
+                <a href="https://es.wikipedia.org/wiki/Creative_Commons" target="_blank">
+                  <img src="imagenes/Creativecommons.png" alt="cc" id="cc">
+                </a>
+              </div>
+              <div id="textpie">
+                <p><a href="">Politicas de privacidad</a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+  </body>
+</html>
